@@ -9,10 +9,6 @@ This repository includes:
 
 > This repository does not include the GenRobot Finger Controller Python SDK. Clone and configure the SDK separately — see [Setup](#setup) below.
 
-## Companion repo
-
-This mirrors the structure and naming conventions of [`teleop-tools`](https://github.com/anthonyshen-GR/teleop-tools), the equivalent tool set for the GenRobot Gripper Controller. If you've used that repo, this one should feel identical — same calibration flow, same controls, same dual-device pattern — just pointed at a finger controller instead.
-
 ## Project structure
 
 ```
@@ -86,8 +82,8 @@ git clone https://github.com/genrobot-ai/gen_finger_con_python_sdk_release.git
 2. Clone this repo:
 
 ```bash
-git clone https://github.com/anthonyshen-GR/finger-teleop-tools.git
-cd finger-teleop-tools
+git clone https://github.com/anthonyshen-GR/gen_finger_con_teleop_python.git
+cd gen_finger_con_teleop_python 
 ```
 
 3. Make `scripts/` from the SDK accessible next to these scripts — symlink is recommended so this repo never drifts from your actual SDK version:
